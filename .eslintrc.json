@@ -1,0 +1,17 @@
+// https://itnext.io/how-to-setup-typescript-eslint-prettier-and-react-in-5-minutes-44cfe8af5081
+{
+  "extends": ["airbnb-typescript-prettier"],
+  "ignorePatterns": ["reportWebVitals.ts"],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/testUtilities.tsx",
+          "**/setupTests.ts",
+          "**/*.test.tsx"
+        ]
+      }
+    ]
+  }
+}
