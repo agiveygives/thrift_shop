@@ -19,14 +19,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": [
-      "node",
-      "webdriverio/async",
-      "@wdio/mocha-framework",
-      "expect-webdriverio",
-      "@wdio/appium-service",
-      "@wdio/firefox-profile-service"
-    ]
   },
   "include": [
     "src"
